@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vertexx Tees</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #fff;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: green;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .product-section {
+      padding: 40px 20px;
+      background-color: #f2f2f2;
+    }
+
+    .product-section h2 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product-card h3 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .product-card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .product-card .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Vertexx Tees</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Stylish Watches & Headphones Under ₹399</h2>
+    <p>Premium Looks. Free Delivery. Cash on Delivery Available.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </section>
+
+  <section class="product-section" id="products">
+    <h2>Our Top Products</h2>
+    <div class="products">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200.png?text=Stylish+Watch" alt="Watch">
+        <h3>GyroX Watch</h3>
+        <p>Alloy Strap, Hard Quality, Premium Design</p>
+        <a class="whatsapp-btn" href="https://wa.me/919769034672?text=Hi! I'm interested in the GyroX Watch from Vertexx.">Add to Cart</a>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200.png?text=Airpods+Pro" alt="Airpods">
+        <h3>Airpods Pro</h3>
+        <p>ANC Mode, Free Case, High Sound Quality</p>
+        <a class="whatsapp-btn" href="https://wa.me/919769034672?text=Hi! I'm interested in the Airpods Pro from Vertexx.">Add to Cart</a>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200.png?text=Premium+Watch" alt="Watch 2">
+        <h3>Vertexx Steel Watch</h3>
+        <p>Premium Build, Classic Design, Unisex</p>
+        <a class="whatsapp-btn" href="https://wa.me/919769034672?text=Hi! I'm interested in the Steel Watch from Vertexx.">Add to Cart</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Vertexx. All rights reserved.
+  </footer>
+
+</body>
+</html>
